@@ -1,4 +1,5 @@
-def fib(n):
+# using the add method
+def fib(n):         
     f = []
     a, b = 0, 1
     while a < n:
@@ -7,6 +8,7 @@ def fib(n):
     return f
 print(fib(10))
         
+# using a generator
 def fib(n):
     a, b = 0, 1
     while a < n:
