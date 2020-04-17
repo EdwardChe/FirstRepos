@@ -19,6 +19,6 @@ def binary_search(list, item):
 
  
 search_number = int(input('Введите чило для поиска '))
-my_list = [1, 2, 3, 4, 5]
+my_list = [n for n in range(0, 20, 2)]
 print(binary_search(my_list, search_number))
 
